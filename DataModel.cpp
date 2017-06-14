@@ -19,7 +19,9 @@ DataModel::DataModel(RTC_DS1307 * rtc_p, DallasTemperature * term_p)
 DateTime DataModel::GetRTCTime()
 {
 	// setting current time&date
+	//
 	//_RTC->adjust(DateTime(__DATE__, __TIME__));
+
 	DateTime RTCTime = _RTC->now();
 
 	return RTCTime;

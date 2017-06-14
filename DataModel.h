@@ -18,8 +18,6 @@ public:
 	DataModel(RTC_DS1307 * rtc_p);
 	DataModel(RTC_DS1307 * rtc_p, DallasTemperature * term_p);
 
-	
-
 	DateTime GetRTCTime();
 	float GetTerm();
 
