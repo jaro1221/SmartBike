@@ -1,0 +1,17 @@
+[
+  {
+    "Sourcefile": "",
+    "Include": "",
+    "Includepath": "C:\\Program Files (x86)\\Arduino\\hardware\\arduino\\avr\\cores\\arduino"
+  },
+  {
+    "Sourcefile": "",
+    "Include": "",
+    "Includepath": "C:\\Program Files (x86)\\Arduino\\hardware\\arduino\\avr\\variants\\eightanaloginputs"
+  },
+  {
+    "Sourcefile": "c:\\Users\\imn1oy\\Documents\\Arduino\\sketchbook\\SmartBike\\.build\\SmartBike\\sketch\\SmartBike.ino.cpp",
+    "Include": "",
+    "Includepath": ""
+  }
+]
