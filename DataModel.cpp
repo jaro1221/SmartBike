@@ -14,6 +14,8 @@ DataModel::DataModel(RTC_DS1307 * rtc_p, DallasTemperature * term_p)
 {
 	_RTC = rtc_p;
 	_Term = term_p;
+	_Term->setCheckForConversion(false);
+	_Term->setWaitForConversion(false);
 }
 
 DateTime DataModel::GetRTCTime()
@@ -32,3 +34,11 @@ float DataModel::GetTerm()
 	_Term->requestTemperatures();
 	return _Term->getTempCByIndex(0);
 }
+
+int DataModel::GetStopwatchValue()
+{
+	_Stopwatch.Run();
+	return _Stopwatch.valueMillis;
+}
+
+

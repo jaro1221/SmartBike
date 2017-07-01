@@ -24,10 +24,11 @@ void Interface::drawInterface()
 void Interface::drawLayout()
 {
 	// frame
-	_OLED->drawLine(0, 0, 127, 0, WHITE);
-	_OLED->drawLine(0, 0, 0, 63, WHITE);
-	_OLED->drawLine(0, 63, 127, 63, WHITE);
-	_OLED->drawLine(127, 63, 127, 0, WHITE);
+	//_OLED->drawLine(0, 0, 127, 0, WHITE);
+	//_OLED->drawLine(0, 0, 0, 63, WHITE);
+	//_OLED->drawLine(0, 63, 127, 63, WHITE);
+	//_OLED->drawLine(127, 63, 127, 0, WHITE);
+	_OLED->drawRoundRect(0, 0, SSD1306_LCDWIDTH, SSD1306_LCDHEIGHT, 2, WHITE);
 
 	// time separator
 	_OLED->drawLine(95, 0, 95, 10, WHITE);
@@ -79,4 +80,5 @@ void Interface::drawTermValue()
 	_OLED->setCursor(3, 37);
 	_OLED->print(_data->GetTerm());
 	_OLED->print("`C");
+	_OLED->print(_data->GetStopwatchValue());
 }

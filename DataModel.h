@@ -11,6 +11,8 @@
 
 #include <RTClib.h>
 #include <DallasTemperature.h>
+#include "Stopwatch.h"
+
 
 class DataModel
 {
@@ -20,12 +22,13 @@ public:
 
 	DateTime GetRTCTime();
 	float GetTerm();
+	int GetStopwatchValue();
 
 private:
 	RTC_DS1307 * _RTC;
 	DallasTemperature * _Term;
-	
 
+	Stopwatch _Stopwatch;
 
 };
 

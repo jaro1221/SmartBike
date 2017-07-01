@@ -1,6 +1,6 @@
-C:\Users\jaro1\AppData\Local\Temp\VMBuilds\SmartBike\nano_atmega328\Debug\DataModel.cpp.o: \
- C:\Users\jaro1\AppData\Local\Temp\VMBuilds\SmartBike\nano_atmega328\Debug\DataModel.cpp \
- C:\Users\jaro1\AppData\Local\Temp\VMBuilds\SmartBike\nano_atmega328\Debug\DataModel.h \
+C:\Users\jaro1\AppData\Local\Temp\VMBuilds\SmartBike\nano_atmega328\Debug\Stopwatch.cpp.o: \
+ C:\Users\jaro1\AppData\Local\Temp\VMBuilds\SmartBike\nano_atmega328\Debug\Stopwatch.cpp \
+ C:\Users\jaro1\AppData\Local\Temp\VMBuilds\SmartBike\nano_atmega328\Debug\Stopwatch.h \
  C:\Program\ Files\ (x86)\Arduino\hardware\arduino\avr\cores\arduino/arduino.h \
  C:\Program\ Files\ (x86)\Arduino\hardware\arduino\avr\cores\arduino/binary.h \
  C:\Program\ Files\ (x86)\Arduino\hardware\arduino\avr\cores\arduino/WCharacter.h \
@@ -12,9 +12,4 @@ C:\Users\jaro1\AppData\Local\Temp\VMBuilds\SmartBike\nano_atmega328\Debug\DataMo
  C:\Program\ Files\ (x86)\Arduino\hardware\arduino\avr\cores\arduino/USBAPI.h \
  C:\Program\ Files\ (x86)\Arduino\hardware\arduino\avr\cores\arduino/Arduino.h \
  C:\Program\ Files\ (x86)\Arduino\hardware\arduino\avr\variants\eightanaloginputs/pins_arduino.h \
- C:\Program\ Files\ (x86)\Arduino\hardware\arduino\avr\variants\eightanaloginputs/../standard/pins_arduino.h \
- C:\Users\jaro1\Documents\Arduino\libraries\RTC/RTClib.h \
- C:\Users\jaro1\Documents\Arduino\libraries\DallasTemperature/DallasTemperature.h \
- C:\Users\jaro1\Documents\Arduino\libraries\MAX31850_OneWire/OneWire.h \
- C:\Program\ Files\ (x86)\Arduino\hardware\arduino\avr\cores\arduino/Arduino.h \
- C:\Users\jaro1\AppData\Local\Temp\VMBuilds\SmartBike\nano_atmega328\Debug\Stopwatch.h
+ C:\Program\ Files\ (x86)\Arduino\hardware\arduino\avr\variants\eightanaloginputs/../standard/pins_arduino.h
