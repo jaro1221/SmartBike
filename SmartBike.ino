@@ -26,6 +26,7 @@ Interface ui(&display, &dataModel);
 
 void setup()
 {
+    Serial.begin(9600);
 	InitDevices();
 	pinMode(buttonPort, INPUT);
 }

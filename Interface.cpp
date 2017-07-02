@@ -76,9 +76,13 @@ void Interface::drawRTCTime()
 
 void Interface::drawTermValue()
 {
-	_OLED->setTextSize(2);
-	_OLED->setCursor(3, 37);
-	_OLED->print(_data->GetTerm());
-	_OLED->print("`C");
-	_OLED->print(_data->GetStopwatchValue());
+	//_OLED->setTextSize(2);
+//	_OLED->setCursor(3, 37);
+//	_OLED->print(_data->GetTerm());
+//	_OLED->print("`C");
+//	_OLED->print(_data->GetStopwatchValue());
+   Serial.println(_data->GetTerm());
+    Serial.println(_data->_Stopwatch.valueMillis);
+    Serial.println(_data->_Stopwatch.valueLastMillis);
+    Serial.println(_data->_Stopwatch.startMillis);
 }

@@ -4,7 +4,7 @@
 #define _STOPWATCH_h
 
 #if defined(ARDUINO) && ARDUINO >= 100
-	#include "arduino.h"
+	#include "Arduino.h"
 #else
 	#include "WProgram.h"
 #endif
@@ -18,13 +18,14 @@ public:
 	void Reset();
 	unsigned int valueMillis;
 	void Run();
-
-private:
-	
-	unsigned int valueLastMillis;
+    unsigned int valueLastMillis;
 	unsigned int startMillis;
 
 	bool isRunning;
+
+private:
+	
+	
 
 	
 

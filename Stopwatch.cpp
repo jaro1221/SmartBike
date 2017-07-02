@@ -7,6 +7,7 @@
 Stopwatch::Stopwatch()
 {
 	isRunning = true;
+    Start();
 }
 
 void Stopwatch::Start()

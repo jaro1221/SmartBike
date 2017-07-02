@@ -4,7 +4,7 @@
 #define _DATAMODEL_h
 
 #if defined(ARDUINO) && ARDUINO >= 100
-	#include "arduino.h"
+	#include "Arduino.h"
 #else
 	#include "WProgram.h"
 #endif
@@ -23,12 +23,12 @@ public:
 	DateTime GetRTCTime();
 	float GetTerm();
 	int GetStopwatchValue();
-
+Stopwatch _Stopwatch;
 private:
 	RTC_DS1307 * _RTC;
 	DallasTemperature * _Term;
 
-	Stopwatch _Stopwatch;
+	
 
 };
 
